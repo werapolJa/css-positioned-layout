@@ -1,1 +1,72 @@
 /* Start coding here */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.header {
+  background-color: grey;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  width: 100vw;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px;
+}
+.message {
+  width: 15vw;
+  border-radius: 30px;
+  margin: 5px 0px;
+  padding: 15px;
+  font-size: 24px;
+  background-color: rgb(7, 190, 7);
+  position: relative;
+}
+.x {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 3px;
+  right: -7px;
+  text-align: center;
+  background-color: gray;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  color: white;
+  font-weight: 100;
+  cursor: pointer;
+}
+.message1 {
+  position: absolute;
+  top: -50px;
+  right: 0px;
+  width: 80px;
+  height: 80px;
+  transform: rotate(40deg);
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 rgb(7, 190, 7);
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  align-items: flex-start;
+}
+.messageleft {
+  width: 15vw;
+  border-radius: 30px;
+  margin: 5px 0px;
+  padding: 15px;
+  font-size: 24px;
+  background-color: gray;
+  position: relative;
+}
